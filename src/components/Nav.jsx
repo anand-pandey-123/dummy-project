@@ -25,7 +25,7 @@ const Nav = ()=>{
       <h1 className='text-2xl   w-[80%]  text-bold mb-3'>Category Filter</h1>
       <div className='w-[80%]' >
           {distinct_category.map((c,i)=>(
-             <Link  key={i} to={`/React-project/?category=${c}`} className=' mb-3 flex items-center hover:scale-105'> 
+             <Link  key={i} to={`/dummy-project/?category=${c}`} className=' mb-3 flex items-center hover:scale-105'> 
              <span style={{backgroundColor:color()}} className='mr-2 w-[15px] h-[15px]  rounded-full '></span>
            {c}</Link>
           ))}
