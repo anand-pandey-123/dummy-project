@@ -13,7 +13,7 @@ const App= ()=> {
   return (
     <>
      <div className='h-screen w-screen font-regular flex'> 
-       {(pathname !="/React-project/" || search.length > 0) && (<Link to="/React-project/" className='text-red-400 absolute left-[20%] top-[3%] w-[80px] h-[40px] rounded  flex items-center text-center justify-center border border-red-300 hover:bg-red-400 hover:text-black hover:scale-110' >Home</Link>   
+       {(pathname !="/dummy-project/" || search.length > 0) && (<Link to="/dummy-project/" className='text-red-400 absolute left-[20%] top-[3%] w-[80px] h-[40px] rounded  flex items-center text-center justify-center border border-red-300 hover:bg-red-400 hover:text-black hover:scale-110' >Home</Link>   
        )}
       
       <Routes>
