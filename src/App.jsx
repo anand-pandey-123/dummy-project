@@ -17,9 +17,9 @@ const App= ()=> {
        )}
       
       <Routes>
-        <Route path="/React-project/"  element={<Home/>}/>
-        <Route path="/React-project/create"  element={<Create/>}/>
-        <Route path="/React-project/details/:id"  element={<Details/>}/>
+        <Route path="/dummy-project/"  element={<Home/>}/>
+        <Route path="/dummy-project/create"  element={<Create/>}/>
+        <Route path="/dummy-project/details/:id"  element={<Details/>}/>
       </Routes>   
      </div>
     </>
