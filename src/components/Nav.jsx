@@ -20,7 +20,7 @@ const Nav = ()=>{
     return(
       <nav className='w-[15%] h-full bg-zinc-100 flex flex-col items-center pt-5'>
       <a className='py-2 px-5 border rounded border-blue-200 text-blue-400 hover:bg-blue-300 hover:text-black hover:scale-110' 
-         href="/React-project/create">Add new Product</a>
+         href="/dummy-project/create">Add new Product</a>
       <hr className='w-[80%] my-3'/>
       <h1 className='text-2xl   w-[80%]  text-bold mb-3'>Category Filter</h1>
       <div className='w-[80%]' >
